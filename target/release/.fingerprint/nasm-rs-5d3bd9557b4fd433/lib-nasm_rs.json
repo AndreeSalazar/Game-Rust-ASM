@@ -1,0 +1,1 @@
+{"rustc":2490638836439573635,"features":"[]","declared_features":"[\"parallel\", \"rayon\"]","target":519278346302734149,"profile":17257705230225558938,"path":11816216905837917380,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release\\.fingerprint\\nasm-rs-5d3bd9557b4fd433\\dep-lib-nasm_rs","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}

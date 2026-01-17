@@ -1,0 +1,20 @@
+cargo::rustc-check-cfg=cfg(no_asm)
+cargo:rerun-if-changed=asm/
+cargo:warning=[NASM] Found at: C:\Users\andre\AppData\Local\bin\NASM\nasm.exe
+cargo:warning=[NASM] Version: NASM version 3.01 compiled on Oct 10 2025
+cargo:rerun-if-changed=asm/core/timing.asm
+cargo:rerun-if-changed=asm/math/simd_vec.asm
+cargo:rerun-if-changed=asm/math/fixed_point.asm
+cargo:rerun-if-changed=asm/physics/collision.asm
+cargo:rerun-if-changed=asm/physics/integration.asm
+cargo:rerun-if-changed=asm/render/raycast.asm
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/core/timing.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\timing.o"
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/math/simd_vec.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\simd_vec.o"
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/math/fixed_point.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\fixed_point.o"
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/physics/collision.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\collision.o"
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/physics/integration.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\integration.o"
+running: "nasm" "" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\asm/render/raycast.asm" "-o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\raycast.o"
+running: "lib" "/OUT:C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\libasm_core.a" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\timing.o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\simd_vec.o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\fixed_point.o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\collision.o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\integration.o" "C:\\Users\\andre\\OneDrive\\Documentos\\Proyectos personales\\Game Rust + ASM\\target\\release\\build\\game_engine_x-30f340e0ea709c56\\out\\raycast.o"
+cargo:warning=[ASM] Compilation failed: failed to spawn process: program not found
+cargo:warning=[ASM] Falling back to Rust implementations
+cargo:rustc-cfg=no_asm

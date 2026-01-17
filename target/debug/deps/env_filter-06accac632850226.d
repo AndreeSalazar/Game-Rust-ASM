@@ -1,0 +1,10 @@
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Game Rust + ASM\target\debug\deps\env_filter-06accac632850226.d: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\directive.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filter.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filtered_log.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\op.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\parser.rs
+
+C:\Users\andre\OneDrive\Documentos\Proyectos personales\Game Rust + ASM\target\debug\deps\libenv_filter-06accac632850226.rmeta: C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\lib.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\directive.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filter.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filtered_log.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\op.rs C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\parser.rs
+
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\lib.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\directive.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filter.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\filtered_log.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\op.rs:
+C:\Users\andre\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\env_filter-0.1.4\src\parser.rs:

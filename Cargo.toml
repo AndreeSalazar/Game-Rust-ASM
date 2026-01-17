@@ -1,0 +1,73 @@
+[package]
+name = "game_engine_x"
+version = "0.1.0"
+edition = "2021"
+authors = ["Eddi Andreé Salazar Matos"]
+description = "Rust-ASM Deterministic 2D Game Engine - CPU-heavy, SIMD-optimized"
+license = "MIT"
+repository = "https://github.com/EddiSalazar/game-engine-x"
+keywords = ["game-engine", "ecs", "physics", "simd", "deterministic"]
+categories = ["game-engines", "game-development"]
+
+default-run = "physics_2d"
+
+[lib]
+name = "engine"
+path = "src/lib.rs"
+
+[[bin]]
+name = "physics_2d"
+path = "games/physics_2d/main.rs"
+
+[[bin]]
+name = "raycaster"
+path = "games/raycaster/main.rs"
+
+[[bin]]
+name = "massive_sim"
+path = "games/massive_sim/main.rs"
+
+[[bin]]
+name = "fighting"
+path = "games/fighting/main.rs"
+
+[dependencies]
+# Window + Input
+winit = "0.30"
+
+# Rendering (software, no GPU)
+softbuffer = "0.4"
+
+# Math
+glam = { version = "0.25", features = ["fast-math"] }
+
+# ECS
+hecs = "0.10"
+
+# Random (deterministic)
+fastrand = "2.0"
+
+# Logging
+log = "0.4"
+env_logger = "0.11"
+
+# Time
+instant = "0.1"
+
+[build-dependencies]
+nasm-rs = "0.2"
+cc = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 1
+
+[features]
+default = ["asm"]
+asm = []
+simd = []
